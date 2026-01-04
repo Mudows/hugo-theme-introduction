@@ -3,7 +3,7 @@
 [404_description]
     other = "Oops! Either you've found a bug{{ with .Site.Params.email }} (in which case, [please tell me](mailto:{{ . }})) {{ end }} or you're just making things up. This page doesn't exist!"
 [index_projects_allProjects]
-    other = "All Projects"
+    other = "Todos os Projetos"
 [index_blog_latestPosts]
     other = "Latest Post"
 [index_blog_allPosts]
@@ -11,15 +11,15 @@
 [index_blog_readMore]
     other = "Read more"
 [index_currentTime]
-    other = "My current local time is"
+    other = "Minha hora local atual é"
 [nav_backToSection]
-    other = "Back to {{ .Title }}"
+    other = "Voltar para {{ .Title }}"
 [nav_main]
     other = "main"
 [blog_readingTime]
     one = "{{ .Count }} minute read"
     other = "{{ .Count }} minutes read"
 [blog_shareThis]
-    other = "Share this"
+    other = "Compartilhe"
 [footer_text]
     other = "[**Introduction**](https://github.com/victoriadrake/hugo-theme-introduction/) theme for [Hugo](http://gohugo.io/). Made with [<i class=\"fa fa-heart\"></i> and <i class=\"fa fa-coffee\"></i>](https://victoria.dev) by open source contributors."
